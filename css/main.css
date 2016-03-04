@@ -13,7 +13,12 @@
 /* =================================== */
 /*	Basic Style 
 /* =================================== */
-
+#itemSecao1:hover, #itemSecao1:active, #itemSecao1:focus{
+	color: #2879B9;
+}
+#fbLike{
+	color: #2879B9;
+}
 body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -1238,7 +1243,7 @@ textarea.form-control {
 
 /*navigation*/
     .navbar-inverse .navbar-toggle {
-        border-color: #fff;
+        border-color: #000;
     }
 
     .navbar-inverse .navbar-toggle:hover,
