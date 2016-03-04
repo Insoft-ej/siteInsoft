@@ -297,6 +297,10 @@ main > section {
 	float:left;
 	margin-left:250px;
 }
+
+#faceicon{
+	float:right;
+}
 h1.navbar-brand {
     font-size: 20px;
     font-weight: 700;
