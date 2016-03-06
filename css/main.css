@@ -297,10 +297,6 @@ main > section {
     padding: 10px 0;
 }
 
-#logo{
-	float:left;
-	margin-left:250px;
-}
 
 #faceicon{
 	float:right;
@@ -526,32 +522,32 @@ h1.navbar-brand {
 }
 
 /*=================================================================
-	About
+	sobre
 ==================================================================*/
 
-#about {
+#sobre {
     background-color: #009EE3;
     color: #fff;
 }
 
-#about h3 {
+#sobre h3 {
     color: #fff;
-    margin: 0 0 35px;
+    margin: 0 0 5px;
     text-transform: uppercase;
 }
 
-#about .welcome-block h3 {
+#sobre .welcome-block h3 {
     margin: 0 0 65px;
 }
 
-#about .welcome-block img {
+#sobre .welcome-block img {
     border: 3px solid #fff;
     border-radius: 50%;
     margin-right: 35px;
     max-width: 100px;
 }
 
-#about .message-body {
+#sobre .message-body {
     font-size: 13px;
     line-height: 20px;
     margin-bottom: 70px;
@@ -648,12 +644,12 @@ h1.navbar-brand {
     margin: 0 1% 1% 0;
     overflow: hidden;
     position: relative;
-    width: 32%;
+    width: 20%;
 }
 
 figcaption.mask {
     background-color: rgba(54, 55, 50, 0.79);
-    bottom: -126px;
+    bottom: -200px;
     color: #fff;
     padding: 25px;
     position: absolute;
@@ -740,21 +736,21 @@ ul.external li a:hover {
 }
 
 /*=================================================================
-	Testimonials
+	mej
 ==================================================================*/
 
 
-#testimonials {
+#mej {
     background-image: url(../img/parallax/fundo_mej.jpg);
     padding: 0;
     color: #fff;
 }
 
-#testimonials .sec-title h2:after {
+#mej .sec-title h2:after {
     border-bottom: 1px solid #fff;
 }
 
-#testimonials .overlay {
+#mej .overlay {
     background-color: rgba(15,155,224, 0.78);
     padding: 70px 0 40px;
 }
@@ -806,18 +802,18 @@ ul.external li a:hover {
     text-transform: uppercase;
 }
 
-#testimonials .owl-controls.clickable {
+#mej .owl-controls.clickable {
     margin-top: 20px;
     text-align: center;
 }
 
-#testimonials .owl-buttons {
+#mej .owl-buttons {
     border: 2px solid #fff;
     float: inherit;
 }
 
-#testimonials .owl-prev:hover,
-#testimonials .owl-next:hover {
+#mej .owl-prev:hover,
+#mej .owl-next:hover {
     color: #fff;
 }
 
@@ -1158,8 +1154,8 @@ textarea.form-control {
 
 @media (min-width: 980px) and (max-width: 1150px) {
 
-/*about*/
-    #about .welcome-block img {
+/*sobre*/
+    #sobre .welcome-block img {
         margin-bottom: 30px;
     }
 
@@ -1193,7 +1189,7 @@ textarea.form-control {
         font-size: 45px;
     }
 
-/* about */
+/* sobre */
     .recent-works {
         margin-bottom: 50px;
     }
@@ -1283,25 +1279,25 @@ textarea.form-control {
         font-size: 22px;
     }
 
-/* about */
+/* sobre */
     .recent-works {
         margin-bottom: 85px;
     }
 
-    #about h3 {
+    #sobre h3 {
         font-size: 18px;
         margin: 0 0 35px !important;
     }
 
-    #about .owl-buttons {
+    #sobre .owl-buttons {
         margin-top: 20px;
     }
 
-    #about .message-body {
+    #sobre .message-body {
         margin-bottom: 45px;
     }
 
-    #about .welcome-block img {
+    #sobre .welcome-block img {
         margin: 0 25px 15px 0;
     }
 
@@ -1401,9 +1397,9 @@ textarea.form-control {
         font-size: 35px;
     }
 
-/*about*/
+/*sobre*/
 
-    #about .welcome-block h3 {
+    #sobre .welcome-block h3 {
         margin: 0 0 35px;
     }
 

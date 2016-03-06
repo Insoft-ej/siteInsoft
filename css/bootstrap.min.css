@@ -4031,7 +4031,7 @@ select[multiple].input-group-sm>.input-group-btn>.btn {
 .navbar-brand {
     float: left;
     height: 50px;
-    padding: 15px 15px;
+    padding: 0px 0px;
     font-size: 18px;
     line-height: 20px
 }
@@ -4387,7 +4387,7 @@ fieldset[disabled] .navbar-default .btn-link:focus {
     background-color: #333
 }
 .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: #fff
+    background-color: #000
 }
 .navbar-inverse .navbar-collapse,
 .navbar-inverse .navbar-form {
