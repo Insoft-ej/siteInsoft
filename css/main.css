@@ -16,13 +16,27 @@
 #itemSecao1:hover, #itemSecao1:active, #itemSecao1:focus{
 	color: #2879B9;
 }
+
+#membros .sec-title h2:after {
+    border-bottom: 1px solid #fff;
+}
+
+.letraMenor h3{
+	font-size:18px;
+}
+.letraMenor p{
+	font-size:14px;
+}
 #fbLike{
 	color: #2879B9;
 }
 #separador{
 	padding-top:80px;
 }
-
+.justificado{
+	text-align:justify;
+	text-indent: 4em;
+}
 body {
     background-color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -546,23 +560,27 @@ h1.navbar-brand {
     margin-right: 35px;
     max-width: 100px;
 }
-
+#topico{
+	padding-top:18px;
+	font-size:20px;
+}
 #sobre .message-body {
-    font-size: 13px;
+    font-size: 16px;
     line-height: 20px;
     margin-bottom: 70px;
 }
 
 .owl-buttons {
-    border: 2px solid #fff;
     display: inline-block;
     float: right;
-    padding: 1px 8px 5px;
+    padding: 10px 15px 10px;
 }
 
 .owl-buttons > div {
     display: inline-block;
-    padding: 0 5px;
+	border: 2px solid #fff;
+    padding: 2px 15px;
+	margin-right:5px;
 }
 
 .welcome-message {
@@ -808,7 +826,6 @@ ul.external li a:hover {
 }
 
 #mej .owl-buttons {
-    border: 2px solid #fff;
     float: inherit;
 }
 
@@ -1285,7 +1302,7 @@ textarea.form-control {
     }
 
     #sobre h3 {
-        font-size: 18px;
+        font-size: 14px;
         margin: 0 0 35px !important;
     }
 
@@ -1414,7 +1431,9 @@ textarea.form-control {
     .portfolio-item {
         width: 48%;
     }
-
+	figcaption h3{
+		font-size: 2px;
+	}
     figcaption.mask {
         bottom: -132px;
     }
