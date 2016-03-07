@@ -42,9 +42,14 @@
 
 		<!-- Modernizer Script for old Browsers -->
         <script src="js/modernizr-2.6.2.min.js"></script>
+		<script type="text/javascript">
+			$('.nav a').click(function(){
+			 window.open(this.href);
+			})
+		</script>
     </head>
 	
-    <body id="body">
+    <body id="body" data-spy="scroll" data-target=".navbar-header">
 
 		<!-- preloader -->
 		<div id="preloader">
@@ -83,8 +88,8 @@
                         <li><a id="itemSecao1" href="#sobre">A Empresa</a></li>
                         <li><a id="itemSecao1" href="#mej">MEJ</a></li>
                         <li><a id="itemSecao1" href="#contato">Contato</a></li>
-						<li><a id="fbLike" href="https://www.facebook.com/InSoft.FGA/?fref=ts" target='_blank'><img id="faceicon" src="img/icons/facebookicon.png" height="25" width="25"></i></a></li>
-						<li><a id="fbLike" href="https://twitter.com/InsoftEj" target='_blank'><img id="tweeticon" src="img/icons/twittericon.png" height="25" width="25"></i></a></li>
+						<li><a id="fbLike" onclick='window.open("https://www.facebook.com/InSoft.FGA/?fref=ts");' href="https://www.facebook.com/InSoft.FGA/?fref=ts" target='_blank'><img id="faceicon" src="img/icons/facebookicon.png" height="25" width="25"></i></a></li>
+						<li><a id="fbLike" onclick='window.open("https://twitter.com/InsoftEj");'href="https://twitter.com/InsoftEj" target='_blank'><img id="tweeticon" src="img/icons/twittericon.png" height="25" width="25"></i></a></li>
                     </ul>
                 </nav>
 				<!-- /main nav -->
@@ -491,7 +496,7 @@
 		<!-- Main jQuery -->
         <script src="js/jquery-1.11.1.min.js"></script>
 		<!-- Twitter Bootstrap -->
-        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.js"></script>
 		<!-- Single Page Nav -->
         <script src="js/jquery.singlePageNav.min.js"></script>
 		<!-- jquery.fancybox.pack -->
