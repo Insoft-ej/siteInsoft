@@ -644,7 +644,7 @@ h1.navbar-brand {
 }
 
 /*=================================================================
-	Portfolio
+	Membros
 ==================================================================*/
 
 .project-wrapper {
@@ -663,7 +663,7 @@ h1.navbar-brand {
     margin: 0 1% 1% 0;
     overflow: hidden;
     position: relative;
-    width: 20%;
+    width: 15%;
 }
 
 figcaption.mask {
@@ -929,12 +929,11 @@ ul.external li a:hover {
 ==================================================================*/
 
 #social {
-    background-image: url(../img/slider/banner.jpg);
+    background-color:#20BCFF;
     padding: 0;
 }
 
 #social .overlay {
-    background: url("../img/slide_bg.png") repeat scroll 0 0 transparent;
     padding: 100px 0 120px;
 }
 
